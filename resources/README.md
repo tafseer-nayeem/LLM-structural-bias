@@ -1,6 +1,6 @@
 # Resources
 
-The AmE--BrE variant resource is released as a Hugging Face dataset rather than duplicated in the code archive.
+The AmE--BrE variant resource is released as a Hugging Face dataset.
 
 Recommended dataset name:
 

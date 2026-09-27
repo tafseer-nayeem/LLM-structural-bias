@@ -8,8 +8,6 @@ Paper:
 Which English Do LLMs Prefer? Triangulating Structural Bias Towards American English in Foundation Models
 ```
 
-arXiv: `2604.04204`
-
 - `data_audit/` contains lexical corpus audits and document-level DiAlign analysis for pretraining data, together with the post-training audit.
 - `representation/tokenization/` measures tokenizer fertility and produces the token-length figures.
 - `representation/contextual_asymmetry/` contains the sentence-level semantic-equivalence and prediction-cost experiments.

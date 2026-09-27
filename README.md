@@ -69,12 +69,4 @@ hf auth whoami
 ## Citation
 
 ```bibtex
-@misc{nayeem2026whichenglish,
-  title        = {Which English Do LLMs Prefer? Triangulating Structural Bias Towards American English in Foundation Models},
-  author       = {Nayeem, Mir Tafseer and Rafiei, Davood},
-  year         = {2026},
-  eprint       = {2604.04204},
-  archivePrefix= {arXiv},
-  primaryClass = {cs.CL}
-}
 ```

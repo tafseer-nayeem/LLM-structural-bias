@@ -29,7 +29,7 @@ ame-bre-structural-bias
 After creating or cloning the dataset repo under your Hugging Face namespace, download it into the code repository with:
 
 ```bash
-pip install huggingface_hub
+pip install datasets
 python resources/fetch_ame_bre_resource.py \
   --repo-id YOUR_USERNAME/ame-bre-structural-bias
 ```

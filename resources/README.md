@@ -11,7 +11,7 @@ ame-bre-structural-bias
 To download the full resource into this directory:
 
 ```bash
-pip install huggingface_hub
+pip install datasets
 python resources/fetch_ame_bre_resource.py \
   --repo-id YOUR_USERNAME/ame-bre-structural-bias
 ```

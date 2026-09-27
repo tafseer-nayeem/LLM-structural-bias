@@ -1,0 +1,5 @@
+accelerate
+numpy
+pyyaml
+torch
+transformers

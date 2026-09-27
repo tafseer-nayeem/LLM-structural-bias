@@ -1,0 +1,45 @@
+models:
+  - display_name: Gemma-3-1B-PT
+    repo: google/gemma-3-1b-pt
+    family: gemma
+    training_stage: base_pretrained
+  - display_name: Gemma-3-1B-IT
+    repo: google/gemma-3-1b-it
+    family: gemma
+    training_stage: instruction_tuned
+
+  - display_name: Ministral-3-3B-Base
+    repo: mistralai/Ministral-3-3B-Base-2512
+    family: mistral
+    training_stage: base_pretrained
+  - display_name: Ministral-3-3B-Instruct
+    repo: mistralai/Ministral-3-3B-Instruct-2512
+    family: mistral
+    training_stage: instruction_tuned
+
+  - display_name: Llama-3.1-8B-Base
+    repo: meta-llama/Llama-3.1-8B
+    family: llama
+    training_stage: base_pretrained
+  - display_name: Llama-3.1-8B-Instruct
+    repo: meta-llama/Llama-3.1-8B-Instruct
+    family: llama
+    training_stage: instruction_tuned
+
+  - display_name: StableLM-2-1.6B-Base
+    repo: stabilityai/stablelm-2-1_6b
+    family: stablelm
+    training_stage: base_pretrained
+  - display_name: StableLM-2-Zephyr-1.6B
+    repo: stabilityai/stablelm-2-zephyr-1_6b
+    family: stablelm
+    training_stage: instruction_tuned
+
+  - display_name: Falcon3-7B-Base
+    repo: tiiuae/Falcon3-7B-Base
+    family: falcon3
+    training_stage: base_pretrained
+  - display_name: Falcon3-7B-Instruct
+    repo: tiiuae/Falcon3-7B-Instruct
+    family: falcon3
+    training_stage: instruction_tuned

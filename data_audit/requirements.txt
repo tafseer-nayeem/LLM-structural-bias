@@ -1,0 +1,6 @@
+datasets>=2.18,<4.0
+tqdm>=4.60
+scipy>=1.7
+pandas>=1.5
+nltk>=3.8
+requests>=2.28

@@ -1,0 +1,106 @@
+models:
+  # Primary matched base/post-training panel for RQ2 loss-gap analysis.
+  # These are intentionally smaller than the tokenizer-table headline models
+  # where the headline model is too expensive for full sequence-loss scoring.
+
+  - display_name: Gemma-3-1B-PT
+    repo: google/gemma-3-1b-pt
+    family: gemma
+    training_stage: base_pretrained
+    paired_with: google/gemma-3-1b-it
+    origin_country: USA
+    role: confirmatory_loss
+    note: Smaller Gemma family representative for loss; tokenizer-table headline uses Gemma-3-27B.
+  - display_name: Gemma-3-1B-IT
+    repo: google/gemma-3-1b-it
+    family: gemma
+    training_stage: instruction_tuned
+    paired_with: google/gemma-3-1b-pt
+    origin_country: USA
+    role: confirmatory_loss
+    note: Post-trained counterpart to Gemma-3-1B-PT.
+
+  - display_name: Ministral-3-3B-Base
+    repo: mistralai/Ministral-3-3B-Base-2512
+    family: mistral
+    training_stage: base_pretrained
+    paired_with: mistralai/Ministral-3-3B-Instruct-2512
+    origin_country: France
+    role: confirmatory_loss
+    note: Public smaller Ministral family representative, replacing Mistral-Small-24B for feasible paired loss; loaded through the Mistral3 conditional-generation architecture.
+  - display_name: Ministral-3-3B-Instruct
+    repo: mistralai/Ministral-3-3B-Instruct-2512
+    family: mistral
+    training_stage: instruction_tuned
+    paired_with: mistralai/Ministral-3-3B-Base-2512
+    origin_country: France
+    role: confirmatory_loss
+    note: Post-trained counterpart to Ministral-3-3B-Base-2512.
+
+  - display_name: Llama-3.1-8B-Base
+    repo: meta-llama/Llama-3.1-8B
+    family: llama
+    training_stage: base_pretrained
+    paired_with: meta-llama/Llama-3.1-8B-Instruct
+    origin_country: USA
+    role: confirmatory_loss
+    note: Smaller Llama family representative, replacing Llama-3.3-70B for loss.
+  - display_name: Llama-3.1-8B-Instruct
+    repo: meta-llama/Llama-3.1-8B-Instruct
+    family: llama
+    training_stage: instruction_tuned
+    paired_with: meta-llama/Llama-3.1-8B
+    origin_country: USA
+    role: confirmatory_loss
+    note: Post-trained counterpart to Llama-3.1-8B.
+
+  - display_name: StableLM-2-1.6B-Base
+    repo: stabilityai/stablelm-2-1_6b
+    family: stablelm
+    training_stage: base_pretrained
+    paired_with: stabilityai/stablelm-2-zephyr-1_6b
+    origin_country: UK
+    role: confirmatory_loss
+    note: Public base model for StableLM-2-Zephyr-1.6B.
+  - display_name: StableLM-2-Zephyr-1.6B
+    repo: stabilityai/stablelm-2-zephyr-1_6b
+    family: stablelm
+    training_stage: instruction_tuned
+    paired_with: stabilityai/stablelm-2-1_6b
+    origin_country: UK
+    role: confirmatory_loss
+    note: Post-trained counterpart to StableLM-2-1.6B.
+
+  - display_name: Falcon3-7B-Base
+    repo: tiiuae/Falcon3-7B-Base
+    family: falcon3
+    training_stage: base_pretrained
+    paired_with: tiiuae/Falcon3-7B-Instruct
+    origin_country: UAE
+    role: confirmatory_loss
+    note: Public base counterpart for Falcon3-7B-Instruct.
+  - display_name: Falcon3-7B-Instruct
+    repo: tiiuae/Falcon3-7B-Instruct
+    family: falcon3
+    training_stage: instruction_tuned
+    paired_with: tiiuae/Falcon3-7B-Base
+    origin_country: UAE
+    role: confirmatory_loss
+    note: Post-trained counterpart to Falcon3-7B-Base.
+
+tokenizer_table_large_references_not_used_for_loss:
+  - display_name: Qwen3-4B / Qwen3-4B-Instruct-2507
+    repo: Qwen/Qwen3-4B
+    reason: excluded from the main RQ2 model set because Qwen was not part of the original American/British English tokenizer-study model table.
+  - display_name: DeepSeek-V3
+    repo: deepseek-ai/DeepSeek-V3-0324
+    reason: too large for routine paired loss; no direct small DeepSeek-V3 counterpart with the same provenance.
+  - display_name: Llama-3.3-70B-Instruct
+    repo: meta-llama/Llama-3.3-70B-Instruct
+    reason: replaced by matched Llama-3.1-8B base/instruct pair for loss.
+  - display_name: Gemma-3-27B-IT
+    repo: google/gemma-3-27b-it
+    reason: replaced by matched Gemma-3-1B or 4B base/instruct pair for loss.
+  - display_name: Mistral-Small-24B-Instruct-2501
+    repo: mistralai/Mistral-Small-24B-Instruct-2501
+    reason: replaced by matched Ministral-3-3B base/instruct pair for loss.

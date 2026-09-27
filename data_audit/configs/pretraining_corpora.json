@@ -1,0 +1,51 @@
+[
+  {
+    "id": "wikipedia",
+    "name": "Wikipedia",
+    "stage": "Pretraining",
+    "source_type": "word_frequency",
+    "word_frequency_path": "external/pretraining_word_frequencies/Wikipedia/word_frequency.json",
+    "selection_note": "Downloaded pretraining word-frequency artifact for Wikipedia."
+  },
+  {
+    "id": "bookcorpus",
+    "name": "BookCorpus",
+    "stage": "Pretraining",
+    "source_type": "word_frequency",
+    "word_frequency_path": "external/pretraining_word_frequencies/BookCorpus/word_frequency.json",
+    "selection_note": "Downloaded pretraining word-frequency artifact for BookCorpus."
+  },
+  {
+    "id": "common_crawl",
+    "name": "Common Crawl / C4",
+    "stage": "Pretraining",
+    "source_type": "word_frequency",
+    "word_frequency_path": "external/pretraining_word_frequencies/Common Crawl/word_frequency.json",
+    "selection_note": "Downloaded pretraining word-frequency artifact for Common Crawl / C4."
+  },
+  {
+    "id": "refinedweb",
+    "name": "RefinedWeb",
+    "stage": "Pretraining",
+    "source_type": "word_frequency",
+    "word_frequency_path": "external/pretraining_word_frequencies/RefinedWeb/word_frequency.json",
+    "selection_note": "Downloaded pretraining word-frequency artifact for RefinedWeb."
+  },
+  {
+    "id": "redpajama",
+    "name": "RedPajama",
+    "stage": "Pretraining",
+    "source_type": "word_frequency",
+    "word_frequency_path": "external/pretraining_word_frequencies/RedPajama/word_frequency.json",
+    "selection_note": "Downloaded pretraining word-frequency artifact for RedPajama."
+  },
+  {
+    "id": "dolma",
+    "name": "Dolma",
+    "stage": "Pretraining",
+    "source_type": "word_frequency",
+    "word_frequency_path": "external/pretraining_word_frequencies/Dolma/word_frequency.json",
+    "selection_note": "Downloaded pretraining word-frequency artifact for Dolma."
+  }
+]
+

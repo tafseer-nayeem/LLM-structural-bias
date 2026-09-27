@@ -1,0 +1,11 @@
+family,stage,model,repo,rows,unique_pairs,gap,ci_low,ci_high,pct_bre_higher
+Falcon3,Base,Falcon3-7B-Base,tiiuae/Falcon3-7B-Base,3375,1125,0.302592,0.29473,0.309968,89.69
+Falcon3,Post,Falcon3-7B-Instruct,tiiuae/Falcon3-7B-Instruct,3375,1125,0.420406,0.408271,0.431052,90.76
+Gemma,Post,Gemma-3-1B-IT,google/gemma-3-1b-it,3522,1174,0.340013,0.328703,0.350805,88.13
+Gemma,Base,Gemma-3-1B-PT,google/gemma-3-1b-pt,3522,1174,0.226186,0.219662,0.232165,91.88
+Llama,Base,Llama-3.1-8B-Base,meta-llama/Llama-3.1-8B,3627,1209,0.18883,0.184208,0.193254,91.59
+Llama,Post,Llama-3.1-8B-Instruct,meta-llama/Llama-3.1-8B-Instruct,3627,1209,0.264133,0.258345,0.270666,92.06
+Ministral,Base,Ministral-3-3B-Base,mistralai/Ministral-3-3B-Base-2512,3684,1228,0.212724,0.207995,0.217235,93.57
+Ministral,Post,Ministral-3-3B-Instruct,mistralai/Ministral-3-3B-Instruct-2512,3684,1228,0.234286,0.228812,0.239436,92.32
+StableLM,Base,StableLM-2-1.6B-Base,stabilityai/stablelm-2-1_6b,3627,1209,0.209828,0.203789,0.215841,91.01
+StableLM,Post,StableLM-2-Zephyr-1.6B,stabilityai/stablelm-2-zephyr-1_6b,3627,1209,0.399936,0.389303,0.41063,89.61

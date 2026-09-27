@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "completed_models": [
+    "google/gemma-3-1b-pt",
+    "google/gemma-3-1b-it",
+    "mistralai/Ministral-3-3B-Base-2512",
+    "mistralai/Ministral-3-3B-Instruct-2512",
+    "meta-llama/Llama-3.1-8B",
+    "meta-llama/Llama-3.1-8B-Instruct",
+    "stabilityai/stablelm-2-1_6b",
+    "stabilityai/stablelm-2-zephyr-1_6b",
+    "tiiuae/Falcon3-7B-Base",
+    "tiiuae/Falcon3-7B-Instruct"
+  ],
+  "completed_model_count": 10,
+  "requested_model_count": 10,
+  "skipped_models": [],
+  "similarity_records": 108000,
+  "pca_rows": 2400,
+  "records": "representation/contextual_asymmetry/results/semantic_equivalence/rq2_semantic_equivalence_records.csv",
+  "summary": "representation/contextual_asymmetry/results/semantic_equivalence/rq2_semantic_equivalence_summary.csv",
+  "pca_coords": "representation/contextual_asymmetry/results/semantic_equivalence/rq2_semantic_equivalence_pca_coords.csv",
+  "skips": "representation/contextual_asymmetry/results/semantic_equivalence/rq2_semantic_equivalence_skips.jsonl"
+}

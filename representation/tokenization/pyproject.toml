@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dialect-representation-tokenization"
+version = "0.1.0"
+description = "Tokenizer representation analysis for AmE/BrE variants."
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.21",
+  "scipy>=1.7",
+  "tiktoken>=0.7",
+  "transformers>=4.40",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

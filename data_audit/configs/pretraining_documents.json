@@ -1,0 +1,80 @@
+[
+  {
+    "id": "wikipedia",
+    "name": "Wikipedia",
+    "source_type": "hf_dataset",
+    "dataset_id": "wikimedia/wikipedia",
+    "config": "20231101.en",
+    "split": "train",
+    "streaming": true,
+    "shuffle_seed": 42,
+    "shuffle_buffer": 10000,
+    "text_fields": ["text"],
+    "id_fields": ["id", "url"],
+    "hf_url": "https://huggingface.co/datasets/wikimedia/wikipedia"
+  },
+  {
+    "id": "bookcorpus",
+    "name": "BookCorpus",
+    "source_type": "local_hf_dataset",
+    "dataset_id": "bookcorpus/bookcorpus",
+    "dataset_path": "external/raw_pretraining/BookCorpus",
+    "split": "train",
+    "shuffle_seed": 42,
+    "text_fields": ["text"],
+    "id_fields": ["id", "book_id"],
+    "hf_url": "https://huggingface.co/datasets/bookcorpus/bookcorpus"
+  },
+  {
+    "id": "common_crawl",
+    "name": "Common Crawl / C4",
+    "source_type": "hf_dataset",
+    "dataset_id": "allenai/c4",
+    "config": "en",
+    "split": "train",
+    "streaming": true,
+    "shuffle_seed": 42,
+    "shuffle_buffer": 10000,
+    "text_fields": ["text"],
+    "id_fields": ["url"],
+    "hf_url": "https://huggingface.co/datasets/allenai/c4"
+  },
+  {
+    "id": "refinedweb",
+    "name": "RefinedWeb",
+    "source_type": "hf_dataset",
+    "dataset_id": "tiiuae/falcon-refinedweb",
+    "split": "train",
+    "streaming": true,
+    "shuffle_seed": 42,
+    "shuffle_buffer": 10000,
+    "text_fields": ["content"],
+    "id_fields": ["url"],
+    "hf_url": "https://huggingface.co/datasets/tiiuae/falcon-refinedweb"
+  },
+  {
+    "id": "redpajama",
+    "name": "RedPajama",
+    "source_type": "hf_dataset",
+    "dataset_id": "togethercomputer/RedPajama-Data-1T-Sample",
+    "split": "train",
+    "streaming": true,
+    "shuffle_seed": 42,
+    "shuffle_buffer": 10000,
+    "text_fields": ["text"],
+    "id_fields": ["meta.url", "url", "id"],
+    "hf_url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T-Sample"
+  },
+  {
+    "id": "dolma",
+    "name": "Dolma",
+    "source_type": "local_jsonl_glob",
+    "dataset_id": "allenai/dolma",
+    "path_glob": "external/raw_pretraining/Dolma/v1_5r2_sample-*.json.gz",
+    "shuffle_seed": 42,
+    "shuffle_buffer": 10000,
+    "text_fields": ["text"],
+    "id_fields": ["id", "metadata.url", "url"],
+    "hf_url": "https://huggingface.co/datasets/allenai/dolma"
+  }
+]

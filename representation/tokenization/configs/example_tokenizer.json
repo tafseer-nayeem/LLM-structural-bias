@@ -1,0 +1,10 @@
+[
+  {
+    "id": "character_example",
+    "name": "Character-Example",
+    "backend": "character",
+    "origin_country": "local",
+    "model_access": "test"
+  }
+]
+

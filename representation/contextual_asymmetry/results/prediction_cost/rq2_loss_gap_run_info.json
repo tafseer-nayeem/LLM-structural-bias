@@ -1,0 +1,78 @@
+{
+  "status": "complete",
+  "completed_models": [
+    {
+      "index": 1,
+      "total_models": 10,
+      "display_name": "Gemma-3-1B-PT",
+      "repo": "google/gemma-3-1b-pt",
+      "records": 8515
+    },
+    {
+      "index": 2,
+      "total_models": 10,
+      "display_name": "Gemma-3-1B-IT",
+      "repo": "google/gemma-3-1b-it",
+      "records": 8515
+    },
+    {
+      "index": 3,
+      "total_models": 10,
+      "display_name": "Ministral-3-3B-Base",
+      "repo": "mistralai/Ministral-3-3B-Base-2512",
+      "records": 8515
+    },
+    {
+      "index": 4,
+      "total_models": 10,
+      "display_name": "Ministral-3-3B-Instruct",
+      "repo": "mistralai/Ministral-3-3B-Instruct-2512",
+      "records": 8515
+    },
+    {
+      "index": 5,
+      "total_models": 10,
+      "display_name": "Llama-3.1-8B-Base",
+      "repo": "meta-llama/Llama-3.1-8B",
+      "records": 8515
+    },
+    {
+      "index": 6,
+      "total_models": 10,
+      "display_name": "Llama-3.1-8B-Instruct",
+      "repo": "meta-llama/Llama-3.1-8B-Instruct",
+      "records": 8515
+    },
+    {
+      "index": 7,
+      "total_models": 10,
+      "display_name": "StableLM-2-1.6B-Base",
+      "repo": "stabilityai/stablelm-2-1_6b",
+      "records": 8515
+    },
+    {
+      "index": 8,
+      "total_models": 10,
+      "display_name": "StableLM-2-Zephyr-1.6B",
+      "repo": "stabilityai/stablelm-2-zephyr-1_6b",
+      "records": 8515
+    },
+    {
+      "index": 9,
+      "total_models": 10,
+      "display_name": "Falcon3-7B-Base",
+      "repo": "tiiuae/Falcon3-7B-Base",
+      "records": 8515
+    },
+    {
+      "index": 10,
+      "total_models": 10,
+      "display_name": "Falcon3-7B-Instruct",
+      "repo": "tiiuae/Falcon3-7B-Instruct",
+      "records": 8515
+    }
+  ],
+  "skipped_models": [],
+  "loss_records": 85150,
+  "summary_rows": 105
+}

@@ -1,0 +1,355 @@
+[
+  {
+    "id": "alpaca_cleaned",
+    "name": "Alpaca Cleaned",
+    "stage": "Instruction tuning / SFT",
+    "dataset_id": "yahma/alpaca-cleaned",
+    "split": "train",
+    "text_fields": [
+      "instruction",
+      "input",
+      "output"
+    ],
+    "hf_url": "https://huggingface.co/datasets/yahma/alpaca-cleaned",
+    "citation_key": "yahma_alpaca_cleaned_hf",
+    "selection_note": "Frequently used cleaned variant of Alpaca.",
+    "schema_note": "Instruction, optional input, and output are counted.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "dolly_15k",
+    "name": "Databricks Dolly 15k",
+    "stage": "Instruction tuning / SFT",
+    "dataset_id": "databricks/databricks-dolly-15k",
+    "split": "train",
+    "text_fields": [
+      "instruction",
+      "context",
+      "response"
+    ],
+    "hf_url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+    "citation_key": "databricks_dolly_15k_hf",
+    "selection_note": "Human-generated instruction-following corpus used in many open SFT recipes.",
+    "schema_note": "Instruction, context, and response are counted; the category label is excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "oasst2",
+    "name": "OpenAssistant Conversations v2",
+    "stage": "Instruction tuning / human feedback",
+    "dataset_id": "OpenAssistant/oasst2",
+    "split": "train",
+    "text_fields": [
+      "text"
+    ],
+    "filters": {
+      "lang": "en"
+    },
+    "hf_url": "https://huggingface.co/datasets/OpenAssistant/oasst2",
+    "citation_key": "openassistant_oasst2_hf",
+    "selection_note": "Second OpenAssistant release with crowd-sourced assistant messages and feedback metadata.",
+    "schema_note": "Only English train rows are counted via lang == en; message metadata is excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "ultrachat_200k",
+    "name": "UltraChat 200k",
+    "stage": "Instruction tuning / SFT",
+    "dataset_id": "HuggingFaceH4/ultrachat_200k",
+    "split": "train_sft",
+    "text_fields": [
+      "messages"
+    ],
+    "hf_url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k",
+    "citation_key": "hfh4_ultrachat_200k_hf",
+    "selection_note": "Popular chat SFT subset derived from UltraChat-style conversations.",
+    "schema_note": "The structured messages field is counted; the prompt field is excluded to avoid duplicate prompt text.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "openhermes_2_5",
+    "name": "OpenHermes 2.5",
+    "stage": "Instruction tuning / SFT",
+    "dataset_id": "teknium/OpenHermes-2.5",
+    "split": "train",
+    "text_fields": [
+      "conversations"
+    ],
+    "hf_url": "https://huggingface.co/datasets/teknium/OpenHermes-2.5",
+    "citation_key": "teknium_openhermes_25_hf",
+    "selection_note": "Large mixed instruction/chat dataset used by OpenHermes models and downstream recipes.",
+    "schema_note": "Conversation message values are counted; source/category metadata is excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "wizardlm_evol_instruct_v2",
+    "name": "WizardLM Evol-Instruct v2",
+    "stage": "Instruction tuning / SFT",
+    "dataset_id": "WizardLMTeam/WizardLM_evol_instruct_V2_196k",
+    "split": "train",
+    "text_fields": [
+      "conversations"
+    ],
+    "hf_url": "https://huggingface.co/datasets/WizardLMTeam/WizardLM_evol_instruct_V2_196k",
+    "citation_key": "wizardlm_evol_instruct_v2_hf",
+    "selection_note": "Evol-Instruct style instruction data widely reused in open assistant tuning.",
+    "schema_note": "Conversation message values are counted; ids are excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "no_robots",
+    "name": "No Robots",
+    "stage": "Instruction tuning / SFT",
+    "dataset_id": "HuggingFaceH4/no_robots",
+    "split": "train",
+    "text_fields": [
+      "messages"
+    ],
+    "hf_url": "https://huggingface.co/datasets/HuggingFaceH4/no_robots",
+    "citation_key": "hfh4_no_robots_hf",
+    "selection_note": "Human-authored SFT dataset intended to reduce synthetic-data artifacts.",
+    "schema_note": "The structured messages field is counted; prompt/category fields are excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "anthropic_hh_rlhf",
+    "name": "Anthropic HH-RLHF",
+    "stage": "RLHF / preference data",
+    "dataset_id": "Anthropic/hh-rlhf",
+    "split": "train",
+    "text_fields": [
+      "chosen",
+      "rejected"
+    ],
+    "hf_url": "https://huggingface.co/datasets/Anthropic/hh-rlhf",
+    "citation_key": "anthropic_hh_rlhf_hf",
+    "selection_note": "Canonical helpful/harmless preference corpus for reward modeling and RLHF experiments.",
+    "schema_note": "Chosen and rejected conversations are counted because both are present in the pairwise feedback data.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "webgpt_comparisons",
+    "name": "OpenAI WebGPT Comparisons",
+    "stage": "RLHF / preference data",
+    "dataset_id": "openai/webgpt_comparisons",
+    "split": "train",
+    "text_fields": [
+      "question.full_text",
+      "answer_0",
+      "answer_1"
+    ],
+    "trust_remote_code": true,
+    "hf_url": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+    "citation_key": "openai_webgpt_comparisons_hf",
+    "selection_note": "Pairwise WebGPT answer comparisons from OpenAI.",
+    "schema_note": "Question and candidate answers are counted; retrieved quote fields are excluded to avoid auditing external evidence text.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "shp",
+    "name": "Stanford Human Preferences",
+    "stage": "RLHF / preference data",
+    "dataset_id": "stanfordnlp/SHP",
+    "split": "train",
+    "text_fields": [
+      "history",
+      "human_ref_A",
+      "human_ref_B"
+    ],
+    "trust_remote_code": true,
+    "hf_url": "https://huggingface.co/datasets/stanfordnlp/SHP",
+    "citation_key": "stanford_shp_hf",
+    "selection_note": "Large Reddit-derived human preference corpus used for reward-model work.",
+    "schema_note": "Prompt history and both human reference answers are counted.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "ultrafeedback_binarized",
+    "name": "UltraFeedback Binarized",
+    "stage": "RLHF / preference data",
+    "dataset_id": "HuggingFaceH4/ultrafeedback_binarized",
+    "split": "train_prefs",
+    "text_fields": [
+      "chosen",
+      "rejected"
+    ],
+    "hf_url": "https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized",
+    "citation_key": "hfh4_ultrafeedback_binarized_hf",
+    "selection_note": "Common binarized preference version of UltraFeedback for DPO/RLHF-style training.",
+    "schema_note": "Chosen and rejected message lists are counted; the duplicate messages field is excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "openai_summarize_comparisons",
+    "name": "OpenAI Summarize Comparisons",
+    "stage": "RLHF / preference data",
+    "dataset_id": "CarperAI/openai_summarize_comparisons",
+    "split": "train",
+    "text_fields": [
+      "prompt",
+      "chosen",
+      "rejected"
+    ],
+    "hf_url": "https://huggingface.co/datasets/CarperAI/openai_summarize_comparisons",
+    "citation_key": "carperai_openai_summarize_comparisons_hf",
+    "selection_note": "Pairwise summarization preference data commonly used in RLHF/reward-model baselines.",
+    "schema_note": "Prompt and both candidate summaries are counted.",
+    "source_type": "hf_dataset",
+    "exclude_variant_pairs": [
+      {
+        "ame": "mail",
+        "bre": "post",
+        "reason": "Ambiguous in summarization data: post frequently means an online/article post rather than postal mail."
+      }
+    ]
+  },
+  {
+    "id": "lima",
+    "name": "LIMA",
+    "stage": "Instruction tuning / SFT",
+    "dataset_id": "GAIR/lima",
+    "config": "plain_text",
+    "split": "train",
+    "text_fields": [
+      "conversations"
+    ],
+    "hf_url": "https://huggingface.co/datasets/GAIR/lima",
+    "citation_key": "gair_lima_hf",
+    "selection_note": "Highly cited small curated instruction-following dataset; requires accepted gated access on Hugging Face.",
+    "schema_note": "Conversation turns are counted; source labels are excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "flan_collection",
+    "name": "FLAN Collection",
+    "stage": "Instruction tuning / task mixture",
+    "dataset_id": "Muennighoff/flan",
+    "split": "train",
+    "text_fields": [
+      "inputs",
+      "targets"
+    ],
+    "hf_url": "https://huggingface.co/datasets/Muennighoff/flan",
+    "citation_key": "muennighoff_flan_hf",
+    "selection_note": "Canonical FLAN-style instruction/task mixture mirror with a tractable train split.",
+    "schema_note": "Inputs and targets are counted; task labels are excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "natural_instructions",
+    "name": "Super-NaturalInstructions",
+    "stage": "Instruction tuning / task mixture",
+    "dataset_id": "Muennighoff/natural-instructions",
+    "split": "train",
+    "text_fields": [
+      "definition",
+      "inputs",
+      "targets"
+    ],
+    "hf_url": "https://huggingface.co/datasets/Muennighoff/natural-instructions",
+    "citation_key": "muennighoff_natural_instructions_hf",
+    "selection_note": "Large Natural Instructions/Super-NaturalInstructions style task mixture used in instruction-tuning work.",
+    "schema_note": "Task definitions, inputs, and targets are counted because all are part of the instruction-tuning example; task ids are excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "sharegpt_vicuna",
+    "name": "ShareGPT Vicuna",
+    "stage": "Instruction tuning / chat",
+    "dataset_id": "Aeala/ShareGPT_Vicuna_unfiltered",
+    "split": "train",
+    "text_fields": [
+      "conversations.value",
+      "conversations.text",
+      "conversations.markdown.answer"
+    ],
+    "hf_url": "https://huggingface.co/datasets/Aeala/ShareGPT_Vicuna_unfiltered",
+    "citation_key": "aeala_sharegpt_vicuna_hf",
+    "selection_note": "Loadable Hugging Face mirror of the influential ShareGPT/Vicuna chat-tuning data family.",
+    "schema_note": "Conversation message values/text/markdown answers are counted; ids and speaker labels are excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "openorca",
+    "name": "OpenOrca",
+    "stage": "Instruction tuning / SFT",
+    "dataset_id": "Open-Orca/OpenOrca",
+    "split": "train",
+    "text_fields": [
+      "system_prompt",
+      "question",
+      "response"
+    ],
+    "hf_url": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
+    "citation_key": "openorca_openorca_hf",
+    "selection_note": "Large Orca-style synthetic instruction dataset widely used in open model training recipes.",
+    "schema_note": "System prompt, question, and response are counted; ids are excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "helpsteer2",
+    "name": "HelpSteer2",
+    "stage": "RLHF / reward modeling feedback",
+    "dataset_id": "nvidia/HelpSteer2",
+    "split": "train",
+    "text_fields": [
+      "prompt",
+      "response"
+    ],
+    "hf_url": "https://huggingface.co/datasets/nvidia/HelpSteer2",
+    "citation_key": "nvidia_helpsteer2_hf",
+    "selection_note": "Second NVIDIA HelpSteer release with human attribute ratings for reward-model work.",
+    "schema_note": "Prompt and response text are counted; scalar attribute ratings are excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "nectar",
+    "name": "Nectar",
+    "stage": "RLHF / preference data",
+    "dataset_id": "berkeley-nest/Nectar",
+    "split": "train",
+    "text_fields": [
+      "prompt",
+      "answers.answer"
+    ],
+    "hf_url": "https://huggingface.co/datasets/berkeley-nest/Nectar",
+    "citation_key": "berkeley_nest_nectar_hf",
+    "selection_note": "Large preference-ranking dataset with multiple model answers per prompt.",
+    "schema_note": "Prompt and all ranked answer texts are counted; model names, ranks, and source labels are excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "pku_saferlhf",
+    "name": "PKU-SafeRLHF",
+    "stage": "RLHF / safety preference data",
+    "dataset_id": "PKU-Alignment/PKU-SafeRLHF",
+    "config": "default",
+    "split": "train",
+    "text_fields": [
+      "prompt",
+      "response_0",
+      "response_1"
+    ],
+    "hf_url": "https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF",
+    "citation_key": "pku_saferlhf_hf",
+    "selection_note": "Widely used safety preference dataset for safe RLHF and preference modeling.",
+    "schema_note": "Prompt and both candidate responses are counted; safety labels and harm-category metadata are excluded.",
+    "source_type": "hf_dataset"
+  },
+  {
+    "id": "beavertails",
+    "name": "BeaverTails",
+    "stage": "RLHF / safety feedback data",
+    "dataset_id": "PKU-Alignment/BeaverTails",
+    "split": "330k_train",
+    "text_fields": [
+      "prompt",
+      "response"
+    ],
+    "hf_url": "https://huggingface.co/datasets/PKU-Alignment/BeaverTails",
+    "citation_key": "pku_beavertails_hf",
+    "selection_note": "Large safety-alignment dataset containing harmfulness annotations for prompt-response pairs.",
+    "schema_note": "Prompt and response text are counted; safety labels and category annotations are excluded.",
+    "source_type": "hf_dataset"
+  }
+]

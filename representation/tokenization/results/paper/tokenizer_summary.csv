@@ -1,0 +1,10 @@
+model,backend,repo_id,encoding,origin_country,model_access,vocab_size,total_vocab_size,variant_pairs,runtime_seconds,completed_utc
+GPT-4,tiktoken,,gpt-4,USA,closed,100277,100277,1813,0.363,2026-09-13T01:44:52.725142+00:00
+GPT-4o,tiktoken,,gpt-4o,USA,closed,200019,200019,1813,0.258,2026-09-13T01:44:52.983531+00:00
+Llama-3.3-70B,hf,meta-llama/Llama-3.3-70B-Instruct,,--,open,128000,128256,1813,1.6,2026-09-13T01:44:54.584074+00:00
+Gemma-3-27B,hf,google/gemma-3-27b-it,,USA,open,262144,262145,1813,1.363,2026-09-13T01:44:55.962657+00:00
+DeepSeek-V3,hf,deepseek-ai/DeepSeek-V3-0324,,China,open,128000,128815,1813,0.895,2026-09-13T01:44:56.893995+00:00
+Mistral-Small-24B,hf,mistralai/Mistral-Small-24B-Instruct-2501,,France,open,131072,131072,1813,0.95,2026-09-13T01:44:57.859463+00:00
+StableLM-2-1.6B,hf,stabilityai/stablelm-2-zephyr-1_6b,,UK,open,100289,100289,1813,0.713,2026-09-13T01:44:58.589393+00:00
+Velvet-2B,hf,Almawave/Velvet-2B,,Italy,open,126976,126976,1813,0.796,2026-09-13T01:44:59.396897+00:00
+Falcon3-7B,hf,tiiuae/Falcon3-7B-Instruct,,UAE,open,131072,131072,1813,0.842,2026-09-13T01:45:00.257256+00:00

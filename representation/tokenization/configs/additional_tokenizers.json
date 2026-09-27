@@ -1,0 +1,27 @@
+[
+  {
+    "id": "falcon3_10b",
+    "name": "Falcon3-10B",
+    "backend": "hf",
+    "repo_id": "tiiuae/Falcon3-10B-Instruct",
+    "origin_country": "UAE",
+    "model_access": "open"
+  },
+  {
+    "id": "stablelm_2_12b",
+    "name": "StableLM-2-12B",
+    "backend": "hf",
+    "repo_id": "stabilityai/stablelm-2-12b",
+    "origin_country": "UK",
+    "model_access": "open"
+  },
+  {
+    "id": "velvet_14b",
+    "name": "Velvet-14B",
+    "backend": "hf",
+    "repo_id": "Almawave/Velvet-14B",
+    "origin_country": "Italy",
+    "model_access": "open"
+  }
+]
+

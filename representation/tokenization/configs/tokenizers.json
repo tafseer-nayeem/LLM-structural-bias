@@ -1,0 +1,75 @@
+[
+  {
+    "id": "gpt4",
+    "name": "GPT-4",
+    "backend": "tiktoken",
+    "model": "gpt-4",
+    "origin_country": "USA",
+    "model_access": "closed"
+  },
+  {
+    "id": "gpt4o",
+    "name": "GPT-4o",
+    "backend": "tiktoken",
+    "model": "gpt-4o",
+    "origin_country": "USA",
+    "model_access": "closed"
+  },
+  {
+    "id": "llama_3_3_70b",
+    "name": "Llama-3.3-70B",
+    "backend": "hf",
+    "repo_id": "meta-llama/Llama-3.3-70B-Instruct",
+    "origin_country": "--",
+    "model_access": "open"
+  },
+  {
+    "id": "gemma_3_27b",
+    "name": "Gemma-3-27B",
+    "backend": "hf",
+    "repo_id": "google/gemma-3-27b-it",
+    "origin_country": "USA",
+    "model_access": "open"
+  },
+  {
+    "id": "deepseek_v3",
+    "name": "DeepSeek-V3",
+    "backend": "hf",
+    "repo_id": "deepseek-ai/DeepSeek-V3-0324",
+    "origin_country": "China",
+    "model_access": "open"
+  },
+  {
+    "id": "mistral_small_24b",
+    "name": "Mistral-Small-24B",
+    "backend": "hf",
+    "repo_id": "mistralai/Mistral-Small-24B-Instruct-2501",
+    "fix_mistral_regex": true,
+    "origin_country": "France",
+    "model_access": "open"
+  },
+  {
+    "id": "stablelm_2_1_6b",
+    "name": "StableLM-2-1.6B",
+    "backend": "hf",
+    "repo_id": "stabilityai/stablelm-2-zephyr-1_6b",
+    "origin_country": "UK",
+    "model_access": "open"
+  },
+  {
+    "id": "velvet_2b",
+    "name": "Velvet-2B",
+    "backend": "hf",
+    "repo_id": "Almawave/Velvet-2B",
+    "origin_country": "Italy",
+    "model_access": "open"
+  },
+  {
+    "id": "falcon3_7b",
+    "name": "Falcon3-7B",
+    "backend": "hf",
+    "repo_id": "tiiuae/Falcon3-7B-Instruct",
+    "origin_country": "UAE",
+    "model_access": "open"
+  }
+]

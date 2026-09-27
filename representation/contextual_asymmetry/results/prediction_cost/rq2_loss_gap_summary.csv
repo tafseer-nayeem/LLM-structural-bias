@@ -1,0 +1,106 @@
+model_display_name,variant_type,template_type,slice,rows,unique_pairs,mean_nll_sum_gap_bre_minus_ame,ci95_nll_sum_gap_low,ci95_nll_sum_gap_high,mean_nll_per_token_gap_bre_minus_ame,ci95_nll_per_token_gap_low,ci95_nll_per_token_gap_high,pct_bre_higher_nll_sum,mean_sentence_token_count_gap_bre_minus_ame,mean_preheld constant_variant_token_count_gap_bre_minus_ame
+Falcon3-7B-Base,lexical,minimal_mention,all_core,825,275,1.156667,0.962879,1.347879,-0.170148,-0.222512,-0.117935,65.7,0.349091,0.349091
+Falcon3-7B-Base,lexical,minimal_mention,both_preheld constant_variants_single_token,318,106,0.604953,0.327044,0.844733,0.106689,0.058569,0.153597,62.89,0.0,0.0
+Falcon3-7B-Base,lexical,minimal_mention,same_preheld constant_variant_token_count,528,176,0.665483,0.46733,0.870265,0.107748,0.070647,0.141306,60.98,0.0,0.0
+Falcon3-7B-Base,lexical,minimal_mention,same_sentence_token_count,528,176,0.665483,0.46733,0.870265,0.107748,0.070647,0.141306,60.98,0.0,0.0
+Falcon3-7B-Base,spelling,minimal_mention,all_core,4614,1538,2.001869,1.944408,2.053262,0.04277,0.025363,0.059597,87.45,0.249675,0.249675
+Falcon3-7B-Base,spelling,minimal_mention,both_preheld constant_variants_single_token,675,225,1.936481,1.821296,2.04037,0.350448,0.329892,0.369336,89.33,0.0,0.0
+Falcon3-7B-Base,spelling,minimal_mention,same_preheld constant_variant_token_count,3375,1125,1.917333,1.865,1.971185,0.302592,0.29473,0.309968,89.69,0.0,0.0
+Falcon3-7B-Base,spelling,minimal_mention,same_sentence_token_count,3375,1125,1.917333,1.865,1.971185,0.302592,0.29473,0.309968,89.69,0.0,0.0
+Falcon3-7B-Base,spelling,orthographic_context,all_core,3076,1538,1.008046,0.953674,1.060712,-0.0825,-0.097116,-0.067438,76.72,0.249675,0.249675
+Falcon3-7B-Base,spelling,orthographic_context,both_preheld constant_variants_single_token,450,225,0.301111,0.206667,0.396667,0.042014,0.02787,0.055463,59.78,0.0,0.0
+Falcon3-7B-Base,spelling,orthographic_context,same_preheld constant_variant_token_count,2250,1125,0.925,0.872,0.979889,0.113405,0.106665,0.119905,78.31,0.0,0.0
+Falcon3-7B-Base,spelling,orthographic_context,same_sentence_token_count,2250,1125,0.925,0.872,0.979889,0.113405,0.106665,0.119905,78.31,0.0,0.0
+Falcon3-7B-Instruct,lexical,minimal_mention,all_core,825,275,1.494091,1.228485,1.739848,-0.213289,-0.276533,-0.151057,65.82,0.349091,0.349091
+Falcon3-7B-Instruct,lexical,minimal_mention,both_preheld constant_variants_single_token,318,106,0.69261,0.359277,1.012579,0.120807,0.059945,0.181276,61.01,0.0,0.0
+Falcon3-7B-Instruct,lexical,minimal_mention,same_preheld constant_variant_token_count,528,176,0.817708,0.55161,1.077652,0.129602,0.080922,0.172706,60.61,0.0,0.0
+Falcon3-7B-Instruct,lexical,minimal_mention,same_sentence_token_count,528,176,0.817708,0.55161,1.077652,0.129602,0.080922,0.172706,60.61,0.0,0.0
+Falcon3-7B-Instruct,spelling,minimal_mention,all_core,4614,1538,2.808897,2.740193,2.877763,0.100308,0.079192,0.120555,88.95,0.249675,0.249675
+Falcon3-7B-Instruct,spelling,minimal_mention,both_preheld constant_variants_single_token,675,225,3.111111,2.93963,3.290741,0.563488,0.531358,0.594228,91.56,0.0,0.0
+Falcon3-7B-Instruct,spelling,minimal_mention,same_preheld constant_variant_token_count,3375,1125,2.636148,2.569111,2.710074,0.420406,0.408271,0.431052,90.76,0.0,0.0
+Falcon3-7B-Instruct,spelling,minimal_mention,same_sentence_token_count,3375,1125,2.636148,2.569111,2.710074,0.420406,0.408271,0.431052,90.76,0.0,0.0
+Falcon3-7B-Instruct,spelling,orthographic_context,all_core,3076,1538,1.541531,1.468059,1.618661,-0.043062,-0.060086,-0.025634,81.21,0.249675,0.249675
+Falcon3-7B-Instruct,spelling,orthographic_context,both_preheld constant_variants_single_token,450,225,0.806111,0.665556,0.963333,0.120532,0.097685,0.141921,67.56,0.0,0.0
+Falcon3-7B-Instruct,spelling,orthographic_context,same_preheld constant_variant_token_count,2250,1125,1.348444,1.276444,1.414889,0.170797,0.162456,0.179593,81.91,0.0,0.0
+Falcon3-7B-Instruct,spelling,orthographic_context,same_sentence_token_count,2250,1125,1.348444,1.276444,1.414889,0.170797,0.162456,0.179593,81.91,0.0,0.0
+Gemma-3-1B-IT,lexical,minimal_mention,all_core,825,275,2.689697,2.326364,2.999394,0.114995,0.074147,0.160078,73.45,0.283636,0.283636
+Gemma-3-1B-IT,lexical,minimal_mention,same_preheld constant_variant_token_count,546,182,1.79098,1.501145,2.115156,0.247407,0.205453,0.290062,69.6,0.0,0.0
+Gemma-3-1B-IT,lexical,minimal_mention,same_sentence_token_count,546,182,1.79098,1.501145,2.115156,0.247407,0.205453,0.290062,69.6,0.0,0.0
+Gemma-3-1B-IT,spelling,minimal_mention,all_core,4614,1538,2.762354,2.669403,2.850753,0.197834,0.181701,0.214568,86.91,0.195709,0.195709
+Gemma-3-1B-IT,spelling,minimal_mention,same_preheld constant_variant_token_count,3522,1174,2.472423,2.383944,2.556112,0.340013,0.328703,0.350805,88.13,0.0,0.0
+Gemma-3-1B-IT,spelling,minimal_mention,same_sentence_token_count,3522,1174,2.472423,2.383944,2.556112,0.340013,0.328703,0.350805,88.13,0.0,0.0
+Gemma-3-1B-IT,spelling,orthographic_context,all_core,3076,1538,2.497074,2.380608,2.604519,0.117565,0.101815,0.132665,83.94,0.195709,0.195709
+Gemma-3-1B-IT,spelling,orthographic_context,same_preheld constant_variant_token_count,2348,1174,2.077193,1.972317,2.185051,0.23133,0.220981,0.242237,83.73,0.0,0.0
+Gemma-3-1B-IT,spelling,orthographic_context,same_sentence_token_count,2348,1174,2.077193,1.972317,2.185051,0.23133,0.220981,0.242237,83.73,0.0,0.0
+Gemma-3-1B-PT,lexical,minimal_mention,all_core,825,275,1.244848,1.034848,1.452273,-0.06057,-0.10597,-0.016498,67.52,0.283636,0.283636
+Gemma-3-1B-PT,lexical,minimal_mention,same_preheld constant_variant_token_count,546,182,1.118361,0.879579,1.352335,0.161802,0.12474,0.199172,67.4,0.0,0.0
+Gemma-3-1B-PT,lexical,minimal_mention,same_sentence_token_count,546,182,1.118361,0.879579,1.352335,0.161802,0.12474,0.199172,67.4,0.0,0.0
+Gemma-3-1B-PT,spelling,minimal_mention,all_core,4614,1538,1.473667,1.42474,1.52701,0.029864,0.014504,0.044744,84.96,0.195709,0.195709
+Gemma-3-1B-PT,spelling,minimal_mention,same_preheld constant_variant_token_count,3522,1174,1.641503,1.59902,1.681892,0.226186,0.219662,0.232165,91.88,0.0,0.0
+Gemma-3-1B-PT,spelling,minimal_mention,same_sentence_token_count,3522,1174,1.641503,1.59902,1.681892,0.226186,0.219662,0.232165,91.88,0.0,0.0
+Gemma-3-1B-PT,spelling,orthographic_context,all_core,3076,1538,1.231713,1.172546,1.294945,-0.014421,-0.02872,0.001151,80.79,0.195709,0.195709
+Gemma-3-1B-PT,spelling,orthographic_context,same_preheld constant_variant_token_count,2348,1174,1.234881,1.180686,1.286946,0.139466,0.133461,0.145121,84.92,0.0,0.0
+Gemma-3-1B-PT,spelling,orthographic_context,same_sentence_token_count,2348,1174,1.234881,1.180686,1.286946,0.139466,0.133461,0.145121,84.92,0.0,0.0
+Llama-3.1-8B-Base,lexical,minimal_mention,all_core,825,275,1.016818,0.866364,1.171061,-0.144607,-0.182297,-0.106976,65.7,0.396364,0.396364
+Llama-3.1-8B-Base,lexical,minimal_mention,same_preheld constant_variant_token_count,399,133,0.691729,0.52381,0.860902,0.095758,0.067713,0.120452,59.65,0.0,0.0
+Llama-3.1-8B-Base,lexical,minimal_mention,same_sentence_token_count,399,133,0.691729,0.52381,0.860902,0.095758,0.067713,0.120452,59.65,0.0,0.0
+Llama-3.1-8B-Base,spelling,minimal_mention,all_core,4614,1538,1.37481,1.340079,1.405451,0.046644,0.035546,0.057053,89.32,0.192458,0.192458
+Llama-3.1-8B-Base,spelling,minimal_mention,same_preheld constant_variant_token_count,3627,1209,1.397298,1.365247,1.433175,0.18883,0.184208,0.193254,91.59,0.0,0.0
+Llama-3.1-8B-Base,spelling,minimal_mention,same_sentence_token_count,3627,1209,1.397298,1.365247,1.433175,0.18883,0.184208,0.193254,91.59,0.0,0.0
+Llama-3.1-8B-Base,spelling,orthographic_context,all_core,3076,1538,0.763654,0.722773,0.803641,-0.040032,-0.050915,-0.02911,77.18,0.192458,0.192458
+Llama-3.1-8B-Base,spelling,orthographic_context,same_preheld constant_variant_token_count,2418,1209,0.796629,0.756617,0.835401,0.084538,0.080362,0.088625,80.48,0.0,0.0
+Llama-3.1-8B-Base,spelling,orthographic_context,same_sentence_token_count,2418,1209,0.796629,0.756617,0.835401,0.084538,0.080362,0.088625,80.48,0.0,0.0
+Llama-3.1-8B-Instruct,lexical,minimal_mention,all_core,825,275,1.365,1.189697,1.541818,-0.117594,-0.157683,-0.078831,71.27,0.396364,0.396364
+Llama-3.1-8B-Instruct,lexical,minimal_mention,same_preheld constant_variant_token_count,399,133,0.959273,0.753133,1.163847,0.137314,0.106447,0.165861,65.41,0.0,0.0
+Llama-3.1-8B-Instruct,lexical,minimal_mention,same_sentence_token_count,399,133,0.959273,0.753133,1.163847,0.137314,0.106447,0.165861,65.41,0.0,0.0
+Llama-3.1-8B-Instruct,spelling,minimal_mention,all_core,4614,1538,1.948635,1.904069,1.990085,0.116246,0.104289,0.127034,90.44,0.192458,0.192458
+Llama-3.1-8B-Instruct,spelling,minimal_mention,same_preheld constant_variant_token_count,3627,1209,1.935346,1.895506,1.978529,0.264133,0.258345,0.270666,92.06,0.0,0.0
+Llama-3.1-8B-Instruct,spelling,minimal_mention,same_sentence_token_count,3627,1209,1.935346,1.895506,1.978529,0.264133,0.258345,0.270666,92.06,0.0,0.0
+Llama-3.1-8B-Instruct,spelling,orthographic_context,all_core,3076,1538,0.975536,0.919051,1.02804,-0.027093,-0.03869,-0.015603,77.31,0.192458,0.192458
+Llama-3.1-8B-Instruct,spelling,orthographic_context,same_preheld constant_variant_token_count,2418,1209,0.969189,0.915633,1.017473,0.103164,0.097317,0.108852,79.86,0.0,0.0
+Llama-3.1-8B-Instruct,spelling,orthographic_context,same_sentence_token_count,2418,1209,0.969189,0.915633,1.017473,0.103164,0.097317,0.108852,79.86,0.0,0.0
+Ministral-3-3B-Base,lexical,minimal_mention,all_core,825,275,1.064242,0.908333,1.200455,-0.085595,-0.125232,-0.046869,71.15,0.327273,0.327273
+Ministral-3-3B-Base,lexical,minimal_mention,same_preheld constant_variant_token_count,423,141,0.738771,0.571809,0.901891,0.103546,0.078867,0.128702,70.45,0.0,0.0
+Ministral-3-3B-Base,lexical,minimal_mention,same_sentence_token_count,423,141,0.738771,0.571809,0.901891,0.103546,0.078867,0.128702,70.45,0.0,0.0
+Ministral-3-3B-Base,spelling,minimal_mention,all_core,4614,1538,1.550498,1.516905,1.584742,0.083496,0.071876,0.093473,91.81,0.172302,0.172302
+Ministral-3-3B-Base,spelling,minimal_mention,same_preheld constant_variant_token_count,3684,1228,1.5852,1.550896,1.619876,0.212724,0.207995,0.217235,93.57,0.0,0.0
+Ministral-3-3B-Base,spelling,minimal_mention,same_sentence_token_count,3684,1228,1.5852,1.550896,1.619876,0.212724,0.207995,0.217235,93.57,0.0,0.0
+Ministral-3-3B-Base,spelling,orthographic_context,all_core,3076,1538,0.964077,0.916287,1.011297,-0.008119,-0.021052,0.003791,79.32,0.172302,0.172302
+Ministral-3-3B-Base,spelling,orthographic_context,same_preheld constant_variant_token_count,2456,1228,1.016185,0.969463,1.058123,0.108414,0.103617,0.113155,82.49,0.0,0.0
+Ministral-3-3B-Base,spelling,orthographic_context,same_sentence_token_count,2456,1228,1.016185,0.969463,1.058123,0.108414,0.103617,0.113155,82.49,0.0,0.0
+Ministral-3-3B-Instruct,lexical,minimal_mention,all_core,825,275,0.963333,0.809697,1.11197,-0.134415,-0.17927,-0.090811,68.73,0.327273,0.327273
+Ministral-3-3B-Instruct,lexical,minimal_mention,both_preheld constant_variants_single_token,138,46,0.388587,0.140399,0.63587,0.074502,0.026947,0.123943,61.59,0.0,0.0
+Ministral-3-3B-Instruct,lexical,minimal_mention,same_preheld constant_variant_token_count,423,141,0.584515,0.406619,0.743499,0.09407,0.064506,0.122024,63.12,0.0,0.0
+Ministral-3-3B-Instruct,lexical,minimal_mention,same_sentence_token_count,423,141,0.584515,0.406619,0.743499,0.09407,0.064506,0.122024,63.12,0.0,0.0
+Ministral-3-3B-Instruct,spelling,minimal_mention,all_core,4614,1538,1.510728,1.475618,1.544701,0.076185,0.062509,0.088767,90.38,0.172302,0.172302
+Ministral-3-3B-Instruct,spelling,minimal_mention,both_preheld constant_variants_single_token,237,79,0.802743,0.704114,0.898207,0.14869,0.127901,0.166535,88.61,0.0,0.0
+Ministral-3-3B-Instruct,spelling,minimal_mention,same_preheld constant_variant_token_count,3684,1228,1.530979,1.493757,1.56423,0.234286,0.228812,0.239436,92.32,0.0,0.0
+Ministral-3-3B-Instruct,spelling,minimal_mention,same_sentence_token_count,3684,1228,1.530979,1.493757,1.56423,0.234286,0.228812,0.239436,92.32,0.0,0.0
+Ministral-3-3B-Instruct,spelling,orthographic_context,all_core,3076,1538,0.935306,0.880364,0.990653,-0.032784,-0.048293,-0.019445,68.6,0.172302,0.172302
+Ministral-3-3B-Instruct,spelling,orthographic_context,both_preheld constant_variants_single_token,158,79,-0.295886,-0.477848,-0.107595,-0.05538,-0.083663,-0.029074,30.38,0.0,0.0
+Ministral-3-3B-Instruct,spelling,orthographic_context,same_preheld constant_variant_token_count,2456,1228,0.929153,0.867671,0.991857,0.100586,0.0939,0.10716,69.91,0.0,0.0
+Ministral-3-3B-Instruct,spelling,orthographic_context,same_sentence_token_count,2456,1228,0.929153,0.867671,0.991857,0.100586,0.0939,0.10716,69.91,0.0,0.0
+StableLM-2-1.6B-Base,lexical,minimal_mention,all_core,825,275,1.007727,0.854545,1.158788,-0.185617,-0.231827,-0.139433,66.42,0.4,0.4
+StableLM-2-1.6B-Base,lexical,minimal_mention,both_preheld constant_variants_single_token,171,57,0.556287,0.313596,0.798977,0.110319,0.055007,0.163743,61.4,0.0,0.0
+StableLM-2-1.6B-Base,lexical,minimal_mention,same_preheld constant_variant_token_count,396,132,0.549242,0.370265,0.733586,0.097665,0.064676,0.129713,61.11,0.0,0.0
+StableLM-2-1.6B-Base,lexical,minimal_mention,same_sentence_token_count,396,132,0.549242,0.370265,0.733586,0.097665,0.064676,0.129713,61.11,0.0,0.0
+StableLM-2-1.6B-Base,spelling,minimal_mention,all_core,4614,1538,1.327969,1.288443,1.364055,0.038389,0.024263,0.051057,88.34,0.192458,0.192458
+StableLM-2-1.6B-Base,spelling,minimal_mention,both_preheld constant_variants_single_token,246,82,0.817581,0.704776,0.926321,0.165862,0.143081,0.187669,83.74,0.0,0.0
+StableLM-2-1.6B-Base,spelling,minimal_mention,same_preheld constant_variant_token_count,3627,1209,1.322994,1.289323,1.360904,0.209828,0.203789,0.215841,91.01,0.0,0.0
+StableLM-2-1.6B-Base,spelling,minimal_mention,same_sentence_token_count,3627,1209,1.322994,1.289323,1.360904,0.209828,0.203789,0.215841,91.01,0.0,0.0
+StableLM-2-1.6B-Base,spelling,orthographic_context,all_core,3076,1538,1.028121,0.976837,1.083713,-0.024947,-0.039642,-0.010787,80.95,0.192458,0.192458
+StableLM-2-1.6B-Base,spelling,orthographic_context,both_preheld constant_variants_single_token,164,82,0.207317,0.064024,0.347561,0.035696,0.015816,0.057292,60.37,0.0,0.0
+StableLM-2-1.6B-Base,spelling,orthographic_context,same_preheld constant_variant_token_count,2418,1209,1.010546,0.958437,1.058726,0.123136,0.117343,0.128827,83.83,0.0,0.0
+StableLM-2-1.6B-Base,spelling,orthographic_context,same_sentence_token_count,2418,1209,1.010546,0.958437,1.058726,0.123136,0.117343,0.128827,83.83,0.0,0.0
+StableLM-2-Zephyr-1.6B,lexical,minimal_mention,all_core,825,275,1.34697,1.133939,1.554848,-0.266224,-0.331726,-0.200568,66.3,0.4,0.4
+StableLM-2-Zephyr-1.6B,lexical,minimal_mention,both_preheld constant_variants_single_token,171,57,0.356725,0.00731,0.678363,0.068104,-0.003046,0.13828,59.06,0.0,0.0
+StableLM-2-Zephyr-1.6B,lexical,minimal_mention,same_preheld constant_variant_token_count,396,132,0.907828,0.656566,1.181187,0.145143,0.100568,0.190674,64.14,0.0,0.0
+StableLM-2-Zephyr-1.6B,lexical,minimal_mention,same_sentence_token_count,396,132,0.907828,0.656566,1.181187,0.145143,0.100568,0.190674,64.14,0.0,0.0
+StableLM-2-Zephyr-1.6B,spelling,minimal_mention,all_core,4614,1538,2.529367,2.461747,2.590973,0.158917,0.137961,0.176064,86.97,0.192458,0.192458
+StableLM-2-Zephyr-1.6B,spelling,minimal_mention,both_preheld constant_variants_single_token,246,82,0.605691,0.413618,0.78252,0.120681,0.083757,0.15752,63.01,0.0,0.0
+StableLM-2-Zephyr-1.6B,spelling,minimal_mention,same_preheld constant_variant_token_count,3627,1209,2.561966,2.498415,2.633995,0.399936,0.389303,0.41063,89.61,0.0,0.0
+StableLM-2-Zephyr-1.6B,spelling,minimal_mention,same_sentence_token_count,3627,1209,2.561966,2.498415,2.633995,0.399936,0.389303,0.41063,89.61,0.0,0.0
+StableLM-2-Zephyr-1.6B,spelling,orthographic_context,all_core,3076,1538,2.559412,2.47066,2.658566,0.131484,0.112804,0.151232,84.85,0.192458,0.192458
+StableLM-2-Zephyr-1.6B,spelling,orthographic_context,both_preheld constant_variants_single_token,164,82,0.518293,0.292683,0.745427,0.07876,0.04497,0.111344,65.85,0.0,0.0
+StableLM-2-Zephyr-1.6B,spelling,orthographic_context,same_preheld constant_variant_token_count,2418,1209,2.538358,2.448408,2.62469,0.310105,0.299942,0.320737,87.3,0.0,0.0
+StableLM-2-Zephyr-1.6B,spelling,orthographic_context,same_sentence_token_count,2418,1209,2.538358,2.448408,2.62469,0.310105,0.299942,0.320737,87.3,0.0,0.0

@@ -1,0 +1,3 @@
+model,category,pair_count,ame_fertility,bre_fertility,delta_percent,wilcoxon_statistic,wilcoxon_p_value
+Character-Example,Orthographic/Spelling,10,12.4,12.4,0.0,,
+Character-Example,Vocabulary,2,11.0,12.5,13.636363636363635,,

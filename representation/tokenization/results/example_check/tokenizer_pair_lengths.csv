@@ -1,0 +1,13 @@
+model,variant_id,ame,bre,group,type,category,ame_token_count,bre_token_count,ame_fertility,bre_fertility
+Character-Example,1,accessorize,accessorise,Group 2,ends in -ize vs. -ise,Orthographic/Spelling,11,11,11.0,11.0
+Character-Example,2,accessorized,accessorised,Group 6,sublexical spelling variation,Orthographic/Spelling,12,12,12.0,12.0
+Character-Example,3,accessorizes,accessorises,Group 6,sublexical spelling variation,Orthographic/Spelling,12,12,12.0,12.0
+Character-Example,4,accessorizing,accessorising,Group 6,sublexical spelling variation,Orthographic/Spelling,13,13,13.0,13.0
+Character-Example,5,acclimatization,acclimatisation,Group 6,sublexical spelling variation,Orthographic/Spelling,15,15,15.0,15.0
+Character-Example,6,acclimatize,acclimatise,Group 2,ends in -ize vs. -ise,Orthographic/Spelling,11,11,11.0,11.0
+Character-Example,7,acclimatized,acclimatised,Group 6,sublexical spelling variation,Orthographic/Spelling,12,12,12.0,12.0
+Character-Example,8,acclimatizes,acclimatises,Group 6,sublexical spelling variation,Orthographic/Spelling,12,12,12.0,12.0
+Character-Example,9,acclimatizing,acclimatising,Group 6,sublexical spelling variation,Orthographic/Spelling,13,13,13.0,13.0
+Character-Example,10,accouterments,accoutrements,Group 6,sublexical spelling variation,Orthographic/Spelling,13,13,13.0,13.0
+Character-Example,11,acknowledgment,acknowledgement,Group 7,different lexical items entirely,Vocabulary,14,15,14.0,15.0
+Character-Example,12,aerogram,aerogramme,Group 7,different lexical items entirely,Vocabulary,8,10,8.0,10.0

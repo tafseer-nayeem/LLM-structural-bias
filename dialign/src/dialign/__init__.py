@@ -1,4 +1,4 @@
-"""DiAlign scoring for American and reference British English."""
+"""Regional alignment scoring for American and reference British English."""
 
 from .scoring import AlignmentResult, DiAlignConfig, DiAlignScorer, NgramEvidence
 

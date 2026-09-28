@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "dialign"
 version = "0.1.0"
-description = "Dialectal alignment scoring for American and reference British English."
+description = "Regional alignment scoring for American and reference British English."
 requires-python = ">=3.10"
 dependencies = ["nltk>=3.8", "requests>=2.28"]
 

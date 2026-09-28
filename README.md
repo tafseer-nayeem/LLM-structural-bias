@@ -1,35 +1,37 @@
 # LLM Structural Bias
 
-This repository contains the data, representation, and dialectal-alignment analyses accompanying the paper.
+Code for auditing American English (AmE) and British English (BrE) across three stages of the LLM pipeline: data exposure, representation, and generation.
 
 Paper:
 
 ```text
-Which English Do LLMs Prefer? Triangulating Structural Bias Towards American English in Foundation Models
+How Does “English (US)” Become the Default? Triangulating Structural Bias Towards American English Across the LLM Pipeline
 ```
 
-- `data_audit/` contains lexical corpus audits and document-level DiAlign analysis for pretraining data, together with the post-training audit.
+[Paper](https://arxiv.org/abs/2604.04204) · [Project website](https://tafseer-nayeem.github.io/LLM-structural-bias/)
+
+<a href="assets/figure_1_pipeline.jpg"><img src="assets/figure_1_pipeline.jpg" alt="Figure 1: data exposure, representation, and generation across the LLM pipeline" width="720"></a>
+
+*Figure 1. The study traces the AmE default from training data through model representation to generated text. Select the figure for a larger view.*
+
+<a href="https://huggingface.co/datasets/tafseer-nayeem/ame-bre-structural-bias"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="22"> AmE–BrE regional variant dataset</a> · 1,813 matched pairs used for the corpus and representation analyses.
+
+- `data_audit/` audits regional variants in pretraining and post-training data and scores document-level regional alignment with DiAlign.
 - `representation/tokenization/` measures tokenizer fertility and produces the token-length figures.
 - `representation/contextual_asymmetry/` contains the sentence-level semantic-equivalence and prediction-cost experiments.
-- `dialign/` provides the shared DiAlign implementation used for pretraining documents and generated text.
+- `dialign/` provides the shared regional alignment scorer used for pretraining documents and generated text.
 - `resources/` contains a tiny local example resource and a helper for downloading the full AmE--BrE variant resource from Hugging Face.
 
 Each package has its own requirements and instructions. Commands in the documentation are written relative to the repository root.
 
 ## Full AmE--BrE resource
 
-The full 1,813-pair AmE--BrE variant resource is released separately as a Hugging Face dataset:
-
-```text
-ame-bre-structural-bias
-```
-
-After creating or cloning the dataset repo under your Hugging Face namespace, download it into the code repository with:
+The full 1,813-pair AmE–BrE variant resource is available on [Hugging Face](https://huggingface.co/datasets/tafseer-nayeem/ame-bre-structural-bias). Download it into this repository with:
 
 ```bash
 pip install datasets
 python resources/fetch_ame_bre_resource.py \
-  --repo-id YOUR_USERNAME/ame-bre-structural-bias
+  --repo-id tafseer-nayeem/ame-bre-structural-bias
 ```
 
 This writes:
@@ -64,9 +66,4 @@ configured with the CLI:
 ```bash
 hf auth login
 hf auth whoami
-```
-
-## Citation
-
-```bibtex
 ```

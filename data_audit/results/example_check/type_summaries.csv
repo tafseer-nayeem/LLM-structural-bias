@@ -1,0 +1,4 @@
+dataset_id,type,pairs,nonzero_pairs,mean_p_ame,mean_p_bre,ame_freq_sum,bre_freq_sum,total_freq_sum,weighted_p_ame,weighted_p_bre
+example_local_jsonl,different lexical items entirely,2,0,,,0,0,0,,
+example_local_jsonl,ends in -ize vs. -ise,2,0,,,0,0,0,,
+example_local_jsonl,sublexical spelling variation,8,0,,,0,0,0,,

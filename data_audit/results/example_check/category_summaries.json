@@ -1,0 +1,28 @@
+[
+  {
+    "dataset_id": "example_local_jsonl",
+    "category": "Orthographic/Spelling",
+    "pairs": 10,
+    "nonzero_pairs": 0,
+    "mean_p_ame": null,
+    "mean_p_bre": null,
+    "ame_freq_sum": 0,
+    "bre_freq_sum": 0,
+    "total_freq_sum": 0,
+    "weighted_p_ame": null,
+    "weighted_p_bre": null
+  },
+  {
+    "dataset_id": "example_local_jsonl",
+    "category": "Vocabulary",
+    "pairs": 2,
+    "nonzero_pairs": 0,
+    "mean_p_ame": null,
+    "mean_p_bre": null,
+    "ame_freq_sum": 0,
+    "bre_freq_sum": 0,
+    "total_freq_sum": 0,
+    "weighted_p_ame": null,
+    "weighted_p_bre": null
+  }
+]

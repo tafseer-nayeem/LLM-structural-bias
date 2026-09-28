@@ -1,0 +1,2 @@
+model,backend,repo_id,encoding,origin_country,model_access,vocab_size,total_vocab_size,variant_pairs,runtime_seconds,completed_utc
+Character-Example,character,,,local,test,,,12,0.0,2026-09-28T21:37:26.805150+00:00

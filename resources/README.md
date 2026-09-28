@@ -1,11 +1,11 @@
 # Resources
 
-The AmE--BrE variant resource is released as a Hugging Face dataset.
+The AmE--BrE variant resource is released as a Hugging Face dataset rather than duplicated in the code archive.
 
-Recommended dataset name:
+Dataset ID:
 
 ```text
-ame-bre-structural-bias
+tafseer-nayeem/ame-bre-structural-bias
 ```
 
 To download the full resource into this directory:
@@ -13,7 +13,7 @@ To download the full resource into this directory:
 ```bash
 pip install datasets
 python resources/fetch_ame_bre_resource.py \
-  --repo-id YOUR_USERNAME/ame-bre-structural-bias
+  --repo-id tafseer-nayeem/ame-bre-structural-bias
 ```
 
 This creates:

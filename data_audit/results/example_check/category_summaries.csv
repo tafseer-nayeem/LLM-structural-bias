@@ -1,0 +1,3 @@
+dataset_id,category,pairs,nonzero_pairs,mean_p_ame,mean_p_bre,ame_freq_sum,bre_freq_sum,total_freq_sum,weighted_p_ame,weighted_p_bre
+example_local_jsonl,Orthographic/Spelling,10,0,,,0,0,0,,
+example_local_jsonl,Vocabulary,2,0,,,0,0,0,,

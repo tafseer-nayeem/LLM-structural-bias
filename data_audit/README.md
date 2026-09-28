@@ -47,7 +47,7 @@ python data_audit/scripts/run_pretraining_dialign.py \
 
 For an archival run, a Hugging Face commit hash can be placed in an entry's optional `revision` field. The selected revision is copied into the corresponding result summary.
 
-The command writes one JSONL record per document and JSON/CSV corpus summaries to `results/pretraining_dialign/`. The document table contains source and scored-text hashes, a source identifier, document lengths, both alignment scores, its alignment label, and candidate and evidence n-gram counts rather than the document text. Mean alignment and dialect shares exclude documents for which Google Books provides no usable directional evidence; evidence coverage and the no-evidence count are reported separately. Top-contributor evidence is omitted by default and can be requested with `--include-contributors`.
+The command writes one JSONL record per document and JSON/CSV corpus summaries to `results/pretraining_dialign/`. The document table contains source and scored-text hashes, a source identifier, document lengths, both alignment scores, its alignment label, and candidate and evidence n-gram counts rather than the document text. Mean alignment and regional shares exclude documents for which Google Books provides no usable directional evidence; evidence coverage and the no-evidence count are reported separately. Top-contributor evidence is omitted by default and can be requested with `--include-contributors`.
 
 DiAlign uses a local SQLite frequency store at `dialign/.cache/ngram_frequencies.sqlite3`. This is especially useful for document-level runs because n-grams shared across documents are queried only once.
 
@@ -67,4 +67,4 @@ Hugging Face credentials may be supplied through `HF_TOKEN`. The token is read a
 
 ## Outputs
 
-The lexical-audit command writes pair-level counts and probabilities, corpus summaries, category summaries, type summaries, and Wilcoxon signed-rank statistics in JSON and CSV formats. The document-level command writes per-document DiAlign scores and corpus summaries. The OpenAI Summarize Comparisons configuration excludes the ambiguous `mail`/`post` pair, whose non-dialectal uses otherwise distort the aggregate.
+The lexical-audit command writes pair-level counts and probabilities, corpus summaries, category summaries, type summaries, and Wilcoxon signed-rank statistics in JSON and CSV formats. The document-level command writes per-document DiAlign scores and corpus summaries. The OpenAI Summarize Comparisons configuration excludes the ambiguous `mail`/`post` pair, whose unrelated uses otherwise distort the aggregate.

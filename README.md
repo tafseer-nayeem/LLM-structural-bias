@@ -7,7 +7,7 @@ Code for auditing American English (AmE) and British English (BrE) across three 
 **Project website:** [LLM Structural Bias](https://tafseer-nayeem.github.io/LLM-structural-bias/)
 
 <p align="center">
-  <a href="assets/figure_1_pipeline.jpg"><img src="assets/figure_1_pipeline.jpg" alt="Figure 1: data exposure, representation, and generation across the LLM pipeline" width="800"></a>
+  <a href="assets/figure_1_pipeline.jpg"><img src="assets/figure_1_pipeline.jpg" alt="Figure 1: data exposure, representation, and generation across the LLM pipeline" width="780"></a>
 </p>
 
 <p align="center"><em>Figure 1. The study traces the AmE default from training data through model representation to generated text. Select the figure for a larger view.</em></p>

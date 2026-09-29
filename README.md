@@ -11,7 +11,7 @@ How Does “English (US)” Become the Default? Triangulating Structural Bias To
 [Paper](https://arxiv.org/abs/2604.04204) · [Project website](https://tafseer-nayeem.github.io/LLM-structural-bias/)
 
 <p align="center">
-  <a href="assets/figure_1_pipeline.jpg"><img src="assets/figure_1_pipeline.jpg" alt="Figure 1: data exposure, representation, and generation across the LLM pipeline" width="720"></a>
+  <a href="assets/figure_1_pipeline.jpg"><img src="assets/figure_1_pipeline.jpg" alt="Figure 1: data exposure, representation, and generation across the LLM pipeline" width="800"></a>
 </p>
 
 <p align="center"><em>Figure 1. The study traces the AmE default from training data through model representation to generated text. Select the figure for a larger view.</em></p>

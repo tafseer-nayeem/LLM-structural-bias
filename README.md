@@ -2,13 +2,9 @@
 
 Code for auditing American English (AmE) and British English (BrE) across three stages of the LLM pipeline: data exposure, representation, and generation.
 
-Paper:
+**Paper:** [How Does "English (US)" Become the Default? Triangulating Structural Bias Towards American English Across the LLM Pipeline](https://arxiv.org/abs/2604.04204)
 
-```text
-How Does “English (US)” Become the Default? Triangulating Structural Bias Towards American English Across the LLM Pipeline
-```
-
-[Paper](https://arxiv.org/abs/2604.04204) · [Project website](https://tafseer-nayeem.github.io/LLM-structural-bias/)
+**Project website:** [LLM Structural Bias](https://tafseer-nayeem.github.io/LLM-structural-bias/)
 
 <p align="center">
   <a href="assets/figure_1_pipeline.jpg"><img src="assets/figure_1_pipeline.jpg" alt="Figure 1: data exposure, representation, and generation across the LLM pipeline" width="800"></a>
